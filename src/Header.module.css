@@ -1,0 +1,107 @@
+.content{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 2.5vw;
+    padding: 0 1.6vw;
+}
+
+.navlist{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+.navlist .navitem{
+    margin: 0 1vw;
+    font-size: 1vw;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.navlist .navitem:hover{
+    color:grey
+}
+
+.info{
+    width: 100%;
+    height: 5.5vw;
+    background-color: #12406F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 1vw;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menulist{
+    display: flex;
+    align-items: center;
+}
+
+.menulist .menuitem{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.832);
+    cursor: pointer;
+    font-size: 1vw;
+    margin: 0 1vw;
+    font-weight: 500;
+}
+
+.menulist .menuitem:hover{
+    color: white;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0 1vw;
+    cursor: pointer;
+}
+
+.search img{
+    width: 100%;
+}
+
+.enrollbutton{
+    padding: 1vw 2vw;
+    margin: 0 1vw;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: #12406F;
+    font-size: 0.8vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.enroll{
+    display: flex;
+    align-items: center;
+}
+
+.enrollbutton:hover{
+    box-shadow: 0 0 20px grey;
+    color: black;
+}
