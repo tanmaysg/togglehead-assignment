@@ -277,6 +277,7 @@ function Main(){
                         <div className={styles.section_content}>
                             <div className={styles.image}>
                                 <img src={newsletter_left_3}></img>
+                                <div className={styles.play}></div> 
                             </div>
                             <div className={styles.info}>
                                 <h3>Video of the month</h3>
