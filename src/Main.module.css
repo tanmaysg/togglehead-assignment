@@ -120,8 +120,6 @@
 }  
 
 .examination{
-    width: 100%;
-    height: auto;
     padding: 5vw 0;
 }
 
@@ -190,8 +188,8 @@
 }
 
 .exam_info{
-    width: 100%;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .exam_info .info{
@@ -475,6 +473,7 @@
 }
 
 .upcoming_event .date{
+    position: relative;
     margin:1.5vw 1.2vw;
     width: 30vw;
     border-radius: 0.5vw;
@@ -514,6 +513,26 @@
 .upcoming_event .date .year h2{
     font-size: 1.5vw;
     font-weight: 500;
+}
+
+.upcoming_event .date .circle1{
+    position: absolute;
+    top: 0.7vw;
+    left: 0.7vw;
+    background-color: #12406F;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
+}
+
+.upcoming_event .date .circle2{
+    position: absolute;
+    top: 0.7vw;
+    right: 0.7vw;
+    background-color: #12406F;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
 }
 
 .upcoming_event .upcoming_event_info{

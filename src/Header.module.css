@@ -73,6 +73,7 @@ header{
 
 
 .search{
+    width: 2vw;
     display: flex;
     align-items: center;
     margin: 0 1vw;
@@ -80,7 +81,7 @@ header{
 }
 
 .search img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .enrollbutton{

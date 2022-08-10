@@ -123,34 +123,34 @@ function Main(){
                         </div>
 
                         <div className={styles.exam_info}>
-                            <div className={styles.info}>
-                                <div className={styles.info_text}>
-                                    <h2>Lorem ipsum</h2>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-                                    <span>Know More<IoIosArrowDroprightCircle/></span>
+                                <div className={styles.info}>
+                                    <div className={styles.info_text}>
+                                        <h2>Lorem ipsum</h2>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                                        <span>Know More<IoIosArrowDroprightCircle/></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className={styles.info}>
-                                <div className={styles.info_text}>
-                                    <h2>Lorem ipsum</h2>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-                                    <span>Know More<IoIosArrowDroprightCircle/></span>
+                                <div className={styles.info}>
+                                    <div className={styles.info_text}>
+                                        <h2>Lorem ipsum</h2>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                                        <span>Know More<IoIosArrowDroprightCircle/></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className={styles.info}>
-                                <div className={styles.info_text}>
-                                    <h2>Lorem ipsum</h2>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-                                    <span>Know More<IoIosArrowDroprightCircle/></span>
+                                <div className={styles.info}>
+                                    <div className={styles.info_text}>
+                                        <h2>Lorem ipsum</h2>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                                        <span>Know More<IoIosArrowDroprightCircle/></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className={styles.info}>
-                                <div className={styles.info_text}>
-                                    <h2>Lorem ipsum</h2>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-                                    <span>Know More<IoIosArrowDroprightCircle/></span>
+                                <div className={styles.info}>
+                                    <div className={styles.info_text}>
+                                        <h2>Lorem ipsum</h2>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                                        <span>Know More<IoIosArrowDroprightCircle/></span>
+                                    </div>
                                 </div>
-                            </div>
                         </div>
                 </div>
             </div>
@@ -297,6 +297,8 @@ function Main(){
                                         <div className={styles.year}>
                                             <h2>2021</h2>
                                         </div>
+                                        <div class={styles.circle1}></div>
+                                        <div class={styles.circle2}></div>
                                     </div>
                                     <div className={styles.upcoming_event_info}>
                                         <h3>Lorem Ipsum</h3>
@@ -314,6 +316,8 @@ function Main(){
                                         <div className={styles.year}>
                                             <h2>2021</h2>
                                         </div>
+                                        <div class={styles.circle1}></div>
+                                        <div class={styles.circle2}></div>
                                     </div>
                                     <div className={styles.upcoming_event_info}>
                                         <h3>Lorem Ipsum</h3>
